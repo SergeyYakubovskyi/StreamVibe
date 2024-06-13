@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Support</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240613224958">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html" class="menu__link _active-page">Home</a></li>
+							<li class="menu__item"><a href="movies&show.html" class="menu__link">Movies & Shows</a></li>
+							<li class="menu__item"><a href="support.html" class="menu__link">Support</a></li>
+							<li class="menu__item"><a href="subscription.html" class="menu__link">Subscriptions</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions action-header">
+					<div class="action-header__icons-row" data-da=".menu__body,375,2">
+						<search class="action-header__search">
+							<img src="img/search.svg" alt="search">
+						</search>
+						<a href="#" class="action-header__notification">
+							<img src="img/notification.svg" alt="notification">
+						</a>
+					</div>
+					<div class="action-header__burger-row">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page">
+			<section class="support">
+				<div class="support__container">
+					<div class="support__welcome welcome-support">
+						<h1 class="welcome-support__title title title--l">
+							Welcome to our support page!
+						</h1>
+						<div class="welcome-support__text text">
+							<p>
+								We're here to help you with any problems you may be having
+								with our product.
+							</p>
+						</div>
+						<div class="welcome-support__image">
+							<img src="img/support/support-img.webp" alt="welcome" />
+						</div>
+					</div>
+					<div class="support__form form">
+						<div class="form__top top-form">
+							<form class="top-form__row" action="files/sendmail/sendmail.php" method="POST">
+								<label class="top-form__lable">First Name</label>
+								<input type="text" name="form[email]" placeholder="Enter First Name" class="top-form__input input" />
+							</form>
+							<form class="top-form__row" action="files/sendmail/sendmail.php" method="POST">
+								<label class="top-form__lable">Last Name</label>
+								<input type="text" name="form[email]" placeholder="Enter Last Name" class="top-form__input input" />
+							</form>
+							<form class="top-form__row" action="files/sendmail/sendmail.php" method="POST">
+								<label class="top-form__lable">Email</label>
+								<input data-required="email" type="text" name="form[email]" data-error="Error" placeholder="Enter your Email" class="input" />
+							</form>
+							<form class="top-form__row" action="files/sendmail/sendmail.php" method="POST">
+								<label class="top-form__lable">Phone Number</label>
+								<div class="top-form__tel-wrap">
+									<select name="form[]" data-class-modif="form">
+										<option value="1" selected>
+											<img src="img/support/c-india.svg" alt="" />
+										</option>
+										<option value="2">
+											<img src="img/support/c-india.svg" alt="" />
+										</option>
+										<option value="3">
+											<img src="img/support/c-india.svg" alt="" />
+										</option>
+									</select>
+									<input type="tel" name="form[email]" placeholder="Enter Phone Number" class="top-form__input input" />
+								</div>
+							</form>
+						</div>
+						<div class="form__bottom bottom-form">
+							<form class="bottom-form__message" action="files/sendmail/sendmail.php" method="POST">
+								<label class="top-form__lable">Message</label>
+								<textarea type="text" name="form[email]" data-error="Error" placeholder="Enter your Message" class="bottom-form__textarea">
+									</textarea>
+							</form>
+							<div class="bottom-form__send send-form">
+								<div class="send-form__checkbox checkbox">
+									<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree with Terms of Use and Privacy Policy</span></label>
+								</div>
+								<button type="submit" class="send-form__button btn ">Send Message</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<div class="faq__top-block top-block">
+						<div class="top-block__row">
+							<h2 class="top-block__title title title--l">
+								Frequently Asked Questions
+							</h2>
+							<div class="top-block__text">
+								<p>
+									Got questions? We've got answers! Check out our FAQ section
+									to find answers to the most common questions about
+									StreamVibe.
+								</p>
+							</div>
+						</div>
+						<a class="top-block__btn btn" href="#">Ask a Question</a>
+					</div>
+					<div data-spollers class="faq__spollers spollers">
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								How much does StreamVibe cost?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What content is available on StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								How can I watch StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What is StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What is StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What is StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What is StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+						<details class="faq__item spollers__item">
+							<summary class="faq__title-spoller spollers__title">
+								What is StreamVibe?
+							</summary>
+							<div class="faq__body spollers__body">
+								StreamVibe is a streaming service that allows you to watch
+								movies and shows on demand.
+							</div>
+						</details>
+					</div>
+				</div>
+			</section>
+			<section class="free">
+				<div class="free__wrapper">
+					<div class="free__container">
+						<div class="free__image">
+							<img src="img/free-trial/start-trial_bg.webp" alt="bg" />
+						</div>
+						<div class="free__content">
+							<div class="free__top-block top-block">
+								<div class="top-block__row">
+									<h2 class="top-block__title title title--l">
+										Start your free trial today!
+									</h2>
+									<div class="top-block__text">
+										<p>
+											This is a clear and concise call to action that
+											encourages users to sign up for a free trial of
+											StreamVibe.
+										</p>
+									</div>
+								</div>
+								<a class="top-block__btn btn" href="#">Start a Free Trail</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Home
+						</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Categories</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Devices</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Pricing</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Movies
+						</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Gernes</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Trending</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">New Release</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Popular</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Shows
+						</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Gernes</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Trending</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">New Release</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Popular</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Support
+						</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Subscription
+						</div>
+						<ul class="top-footer__list">
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Plans</a></li>
+							<li class="top-footer__item"><a class="top-footer__link" href="#">Features</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__col">
+						<div class="top-footer__lable">
+							Connect With Us
+						</div>
+						<ul class="top-footer__list  social">
+							<li class="social__item"><a class="social__link _icon-s-facebook" href="#"></a></li>
+							<li class="social__item"><a class="social__link _icon-s-twitter" href="#"></a></li>
+							<li class="social__item"><a class="social__link _icon-s-linkedin" href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__copyright">@2023 streamvib, All Rights Reserved</div>
+					<ul class="bottom-footer__police police">
+						<li class="police__item"><a href="#">Terms of Use</a></li>
+						<li class="police__item"><a href="#">Privacy Policy</a></li>
+						<li class="police__item"><a href="#">Cookie Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240613224958"></script>
+</body>
+
+</html>
